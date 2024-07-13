@@ -1,7 +1,12 @@
 import { Schema,model } from "mongoose";
-import User from "./User";
+
+
 
 const transactionSchema = new Schema({
+    title:{
+        type:String,
+         required:true
+    },
     amount:{
         type:Number,
         required: true,
@@ -15,10 +20,14 @@ const transactionSchema = new Schema({
     
         enum:["debit","credit"],
     },
-    User:{
+    user:{
         type:Schema.Types.ObjectId,
         ref:"User",
+        required: true
     }
+},
+{
+    timestamps:true
 })
 
 const Transaction = model("Transaction",transactionSchema);
