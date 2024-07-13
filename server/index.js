@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv, { config } from "dotenv";
 dotenv.config();
-import { postSignup,postLogin } from "./controllers/user.js";
-import { postTransaction } from "./controllers/transaction.js";
+import { postSignup, postLogin } from "./controllers/user.js";
+import { postTransaction,getTransactions} from "./controllers/transaction.js";
 
 
 const app = express();
@@ -26,11 +26,12 @@ app.get("/", (req, res) => {
     })
 })
 
-app.post("/signup" , postSignup)
+app.post("/signup", postSignup)
 
-app.post("/login",  postLogin)
+app.post("/login", postLogin)
 
-app.post("/transaction",postTransaction)
+app.post("/transaction", postTransaction)
+app.get("/transactions",getTransactions)
 
 
 const PORT = process.env.PORT || 5000;
