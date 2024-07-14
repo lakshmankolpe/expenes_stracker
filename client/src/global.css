@@ -1,0 +1,25 @@
+.user-input{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border: 2px solid #33bbff;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+
+.user-input:focus, .use:active{
+    outline: none;
+}
+.btn-auth{
+background-color: #4dc3ff;
+border-radius: 30px;
+padding: 8px 30px;
+border: none;
+cursor: pointer;
+}
+.btn-auth:hover{
+    background-color:#00aaff ;
+    box-shadow: 0px 0px 2px 1px gray ;
+    transition: 0.3s;
+}
