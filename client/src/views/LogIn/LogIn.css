@@ -1,0 +1,102 @@
+.login-headining {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.login-main-container {
+    height: 97.8vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.welcome-text-container {
+
+    height: 68vh;
+    width: 30%;
+    margin: 10px;
+}
+
+.welcome-heading1 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 90px;
+}
+
+.welcome-heading2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.paragraph-text1 {
+    font-size: 30px;
+}
+
+.paragraph-text2 {
+    font-size: 20px;
+}
+
+.form-main-container {
+    background-color: white;
+    height: 67vh;
+    width: 27%;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px grey;
+    display: block;
+    position: relative;
+    justify-content: center;
+    padding: 30px;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.login-input {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border: 2px solid #33bbff;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 18px 5px;
+}
+
+.login-input:focus,
+.use:active {
+    outline: none;
+}
+
+.checkbox-text {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.login-button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: none;
+    height: 45px;
+    width: 80%;
+    background-color: #4d4dff;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #0000e6;
+    transition: 0.2s;
+}
+
+.forgot-pass-text {
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}

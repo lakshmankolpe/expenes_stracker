@@ -1,0 +1,51 @@
+.transaction-card-main-container{
+
+
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border: 2px solid #5192fb ;
+    padding: 20px;
+    margin: 17px  30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 1px gray;
+  position:relative;
+  
+}
+
+.transaction-card-title{
+    margin: 0;
+    font-size: 20px;
+}
+
+.transaction-card-amount{
+position: absolute;
+right: 10px;
+top: 10px;
+font-size: 20px;
+}
+
+.transaction-card-date{
+font-size: 18px;
+}
+
+.transaction-card-category{
+  font-size: 18px;
+  background-color: blue;
+  color: white;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 3px 15px;
+  border-radius: 25px;
+}
+
+
+.transaction-card-delete{
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding:5px 20px;
+  border-radius: 20px;
+  margin-left: 30px ;
+  cursor: pointer;
+}

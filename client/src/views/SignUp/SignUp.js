@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./SignUp.css"
 import axios from 'axios'
 import toast, { Toaster } from "react-hot-toast"
+import { Link } from 'react-router-dom';
 
 function SignUp() {
 
@@ -23,7 +24,7 @@ function SignUp() {
     if (response.data.success) {
       toast.success(response.data.message)
       setUser({
-        fullName: "",
+        fullname: "",
         email: "",
         password: "",
         dob: ""
@@ -37,9 +38,9 @@ function SignUp() {
 
   return (
     <div>
-      <h1 className='signup-heading'>User Registration</h1>
+      <h1 className='auth-headining'>User Registration</h1>
 
-      <form className='signup-form'>
+      <form className='auth-form'>
         <input
           type='text'
           placeholder='Full Name'
@@ -89,6 +90,7 @@ function SignUp() {
 
       </form>
       <Toaster />
+      <Link to="/login" className='auth-link'>Already have an account? Login</Link>
     </div>
   )
 }

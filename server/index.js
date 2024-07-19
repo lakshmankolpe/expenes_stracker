@@ -4,7 +4,7 @@ import cors from "cors";
 import dotenv, { config } from "dotenv";
 dotenv.config();
 import { postSignup, postLogin } from "./controllers/user.js";
-import { postTransaction,getTransactions} from "./controllers/transaction.js";
+import { postTransactions,getTransactions,deleteTRansaction} from "./controllers/transaction.js";
 
 
 const app = express();
@@ -27,11 +27,11 @@ app.get("/", (req, res) => {
 })
 
 app.post("/signup", postSignup)
-
 app.post("/login", postLogin)
 
-app.post("/transaction", postTransaction)
+app.post("/transactions", postTransactions)
 app.get("/transactions",getTransactions)
+app.delete("/transaction/:id",deleteTRansaction)
 
 
 const PORT = process.env.PORT || 5000;
