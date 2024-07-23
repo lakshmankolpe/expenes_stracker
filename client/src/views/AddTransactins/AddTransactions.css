@@ -1,3 +1,76 @@
-.add-transactins-title{
-    
+.add-transactins-title {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.user-name {
+    color: blue;
+
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin: 0;
+}
+
+.add-transaction-container {
+    background-color: white;
+    width: 30%;
+    height: 75vh;
+    margin: 90px auto;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px 1px grey;
+}
+
+.Logo-icon {
+    height: 120px;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+
+.add-transaction-form {
+    height: 47vh;
+    display: block;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.add-transaction-input {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border: 2px solid #33bbff;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 1px;
+}
+
+.add-transaction-input:focus,
+.use:active {
+    outline: none;
+}
+
+.add-transaction-button {
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+    border: none;
+    height: 45px;
+    width: 80%;
+    background-color: #4d4dff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.add-transaction-button:hover{
+    background-color:#00aaff ;
+    box-shadow: 0px 0px 2px 1px gray ;
+    transition: 0.3s;
 }

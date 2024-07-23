@@ -3,7 +3,7 @@ import "./SignUp.css"
 import axios from 'axios'
 import toast, { Toaster } from "react-hot-toast"
 import { Link } from 'react-router-dom';
-
+import logoimg from "../LogIn/tracker_logo.png"
 function SignUp() {
 
   const [user, setUser] = useState({
@@ -37,14 +37,15 @@ function SignUp() {
 
 
   return (
-    <div>
-      <h1 className='auth-headining'>User Registration</h1>
+    <div className='signup-main-container'>
+      <h1 className='signup-headining'>
+      <img src={logoimg} className='Logo-icon' />User Registration</h1>
 
-      <form className='auth-form'>
+      <form className='signup-form'>
         <input
           type='text'
           placeholder='Full Name'
-          className='user-input'
+          className='signup-input'
           value={user.fullname}
           onChange={(e) => {
             setUser({ ...user, fullname: e.target.value })
@@ -54,7 +55,7 @@ function SignUp() {
         <input
           type='email'
           placeholder=' Enter Email'
-          className='user-input'
+          className='signup-input'
           value={user.email}
           onChange={(e) => {
             setUser({ ...user, email: e.target.value })
@@ -64,7 +65,7 @@ function SignUp() {
         <input
           type='password'
           placeholder='Enter Password'
-          className='user-input'
+          className='signup-input'
           value={user.password}
           onChange={(e) => {
             setUser({ ...user, password: e.target.value })
@@ -74,7 +75,7 @@ function SignUp() {
         <input
           type='date'
           placeholder='Date of Birth'
-          className='user-input'
+          className='signup-input'
           value={user.dob}
           onChange={(e) => {
             setUser({ ...user, dob: e.target.value })
@@ -83,7 +84,7 @@ function SignUp() {
 
         <button
           type='button'
-          className='btn-auth'
+          className='registration-button'
           onClick={signup}
         >Register
         </button>
