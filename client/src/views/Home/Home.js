@@ -34,7 +34,7 @@ function Home() {
     toast.loading("Loading Transaction...")
 
     const response = await axios.get(`${process.env.REACT_APP_API_URL}/transactions?userId=${user._id}`)
-     const allTransactions=response.data.data  
+    const allTransactions = response.data.data
     toast.dismiss()
     setTransactions(allTransactions)
   }

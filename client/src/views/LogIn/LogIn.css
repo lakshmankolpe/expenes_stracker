@@ -21,7 +21,7 @@
 .welcome-heading1 {
     font-size: 40px;
     margin: 0;
-   
+
 }
 
 .welcome-heading2 {
@@ -86,12 +86,13 @@
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .login-button:hover {
-    background-color:#00aaff ;
-    box-shadow: 0px 0px 2px 1px gray ;
-    transition: 0.3s;
+    background-color: #00aaff;
+    box-shadow: 0px 0px 2px 1px gray;
+    transform: scale(1.05);
 }
 
 .forgot-pass-text {
@@ -101,18 +102,19 @@
     font-size: 20px;
 
 }
-.logo-icon{
+
+.logo-icon {
     height: 150px;
     margin: 0;
     padding: 0;
 }
 
-.logo-icon-logo{
-   
-position:absolute;
-left: 50px;
-top: 2px;
+.logo-icon-logo {
+
+    position: absolute;
+    left: 50px;
+    top: 2px;
     height: 100px;
-   
+
 
 }

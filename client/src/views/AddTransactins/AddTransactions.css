@@ -67,10 +67,11 @@
     font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .add-transaction-button:hover{
     background-color:#00aaff ;
     box-shadow: 0px 0px 2px 1px gray ;
-    transition: 0.3s;
+    transform: scale(1.05);
 }

@@ -2,15 +2,17 @@
     color: red;
     font-size: 30px;
     margin: 0;
-    padding-left: 10px;
-    
+    padding-left: 30px;
+    padding-top: 7px;
+
 }
 
 .home-heading {
     font-size: 20px;
     margin: 0;
     font-size: 25px;
-    padding-left: 10px;
+    padding-left: 30px;
+
 }
 
 .home-logout {
@@ -25,7 +27,10 @@
 .net-transactins-value {
     display: flex;
     justify-content: space-around;
-    margin: 10px auto;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1000px;
+    flex-wrap: wrap;
 }
 
 .net-transactins-value-item {
@@ -51,28 +56,117 @@
     font-size: 20px;
     font-weight: bold;
     padding-top: 30px;
-   
+
 }
 
 .transactios-container {
-    height: 76vh;
+    height: 65vh;
     overflow-y: scroll;
-    
+
 }
 
 .add-transactions {
-    height: 40px;
+    height: 50px;
     position: fixed;
-    right: 10px;
-    bottom: 10px;
-    background-color: #fff;
+    right: 70px;
+    top: 190px;
     padding: 5px;
-    border-radius: 40px;
-    border: 2px solid black;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 30%;
 
 }
 
 .add-transactions:hover {
-    background-color: #99ddff;
+    box-shadow: 0px 0px 2px 1px gray;
+    transform: scale(1.05);
+}
+
+
+/* Media Queries */
+
+/* Mobile Devices */
+@media (max-width: 480px) {
+    .home-greating {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+
+    .home-heading {
+        font-size: 18px;
+        padding-left: 15px;
+    }
+
+    .home-logout {
+        font-size: 18px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .net-transactins-value {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .net-transactins-value-item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .add-transactions {
+        right: 10px;
+        top: 130px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    .home-greating {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    .home-heading {
+        font-size: 22px;
+        padding-left: 20px;
+    }
+
+    .net-transactins-value {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .net-transactins-value-item {
+        width: 80%;
+        height: 15vh;
+        margin-bottom: 15px;
+    }
+
+    .add-transactions {
+        right: 40px;
+        top: 160px;
+    }
+
+    .net-transactins-value-amount {
+        padding-left: 10px;
+
+    }
+
+}
+
+/* Large Screens */
+@media (min-width: 1024px) {
+    .home-greating {
+        font-size: 35px;
+    }
+
+    .home-heading {
+        font-size: 30px;
+    }
+
+    .net-transactins-value {
+        max-width: 1000px;
+    }
 }

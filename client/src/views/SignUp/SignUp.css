@@ -1,6 +1,6 @@
 .signup-main-container {
     background-color: white;
-    width: 35%;
+    width: 30%;
     height: 75vh;
     margin: 90px auto;
     border-radius: 10px;
@@ -52,9 +52,10 @@ padding-top: 30px;
     font-size: 18px;
     border-radius: 8px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .registration-button:hover{
     background-color:#00aaff ;
     box-shadow: 0px 0px 2px 1px gray ;
-    transition: 0.3s;
+    transform: scale(1.05);
 }
