@@ -39,7 +39,8 @@ function SignUp() {
   return (
     <div className='signup-main-container'>
       <h1 className='signup-headining'>
-      <img src={logoimg} className='Logo-icon' />User Registration</h1>
+      <img src={logoimg} className='Logo-icon1' />
+      User Registration</h1>
 
       <form className='signup-form'>
         <input
