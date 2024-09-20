@@ -45,7 +45,7 @@ function AddTransactions() {
         <img src={logoimg} className='Logo-icon' />
         Add Transaction For
       </h3>
-      <h1 className='user-name'>💐{user.fullName}👏</h1>
+      <h1 className='user-name'>{user.fullName}</h1>
 
       <form className='add-transaction-form'>
         <input
