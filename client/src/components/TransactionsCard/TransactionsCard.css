@@ -6,8 +6,6 @@
   padding: 20px;
   position: relative;
   transition: box-shadow 0.3s ease;
-
-
 }
 
 .transaction-card-main-container:hover {
@@ -61,4 +59,31 @@
 .transaction-card-delete:hover {
   background-color: #e60000;
   transform: scale(1.05);
+}
+
+@media screen and (max-width: 500px) {
+  .transaction-card-main-container {
+    margin: 20px 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .transaction-card-title {
+    font-size: 18px;
+    padding-bottom: 5px;
+  }
+  .transaction-card-date,
+  .transaction-card-category {
+    font-size: 14px;
+  }
+  .transaction-card-amount {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+  .transaction-card-delete {
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    bottom: 10px;
+    right: 10px;
+  }
 }

@@ -122,9 +122,13 @@ function Home() {
           })
         }
       </div>
-      <Link to="/addtransactions">
-        <img src={addIcon} alt='add-icon' className='add-transactions' />
-      </Link>
+      <div className="add-transactions-container">
+  <Link to="/addtransactions" className="add-transactions-link">
+    <img src={addIcon} alt="add-icon" className="add-transactions" />
+    <span className="hover-text">Add Transaction</span>
+  </Link>
+</div>
+
       <Toaster />
     </div>
   )
