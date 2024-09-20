@@ -14,8 +14,8 @@
 .Logo-icon1 {
   height: 120px;
   position: absolute;
-  top: 2px;
-  left: 25px;
+  top: 5px;
+  left: -3px;
 }
 
 .signup-form {
@@ -111,7 +111,7 @@
 
   .Logo-icon1 {
     height: 70px;
-    left: -8px;
+    left: -3px;
     top: 15px;
   }
   .signup-headining {
