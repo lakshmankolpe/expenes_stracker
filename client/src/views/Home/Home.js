@@ -65,7 +65,7 @@ function Home() {
       <h2 className='home-heading'> Welcome to the Expense Tracker</h2>
       <span className='home-logout' onClick={() => {
         localStorage.clear()
-        toast.success('Log out successfully')
+        toast.success('Logout successfully')
         setTimeout(() => {
           window.location.href = "./login"
         }, 3000);

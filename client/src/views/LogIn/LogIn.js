@@ -15,6 +15,7 @@ function LogIn() {
       email: email,
       password: password
     })
+    
     if (response.data.success) {
       toast.success(response.data.message)
       localStorage.setItem('currentUser', JSON.stringify(response.data.data))
