@@ -91,6 +91,7 @@ padding-top: 30px;
         width: 90%;
         height: auto;
         margin: 50px auto;
+        margin-top: 25%;
     }
 
     .Logo-icon {
@@ -109,5 +110,9 @@ padding-top: 30px;
     .registration-button {
         width: 100%;
         font-size: 16px;
+    }
+    .login-page-text{
+       padding-bottom:25px ;
+       margin-top: 0;
     }
 }

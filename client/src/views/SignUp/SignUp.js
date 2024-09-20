@@ -91,7 +91,7 @@ function SignUp() {
 
       </form>
       <Toaster />
-      <Link to="/login" className='auth-link'>Already have an account? Login</Link>
+      <Link to="/login" className='auth-link login-page-text '>Already have an account? Login</Link>
     </div>
   )
 }
