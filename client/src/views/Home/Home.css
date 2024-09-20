@@ -19,6 +19,7 @@
   right: 20px;
   cursor: pointer;
   font-size: 20px;
+  font-weight: bold;
   color: red;
 }
 
@@ -59,7 +60,6 @@
   width: 80%;
   margin: 0 auto;
   overflow-y: scroll;
-  background-color: tomato;
 }
 
 .add-transactions-container {
@@ -68,25 +68,28 @@
 
 .add-transactions {
   height: 50px;
-  position: fixed;
-  right: 70px;
-  top: 190px;
+  position: absolute;
+  right: 100px;
+  bottom: 520px;
   padding: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-  border-radius: 30%;
+  
 }
 
 .add-transactions:hover {
-  box-shadow: 0px 0px 2px 1px gray;
   transform: scale(1.05);
 }
 
 .hover-text {
   position: absolute;
-  top: -480px;
-  right: 45px;
+  top: -523px;
+  right: 80px;
   font-size: 12px;
+  background-color:gray;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease;
@@ -101,10 +104,7 @@
 
 /* Mobile Devices */
 @media (max-width: 480px) {
-  .net-transactins-value {
-    margin: 20px auto;
-    padding: 10px;
-  }
+
   .home-greating {
     font-size: 20px;
     padding-left: 15px;
@@ -127,21 +127,37 @@
   }
 
   .net-transactins-value-item {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
+    width: 85%;
+    height: 15vh;
+    margin-bottom: 15px;
+    
+  }
+.net-transactins-value-amount {
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .net-transactins-value-title{
+    font-size: 18px;
   }
 
   .transactios-container {
-    height: 63vh;
     width: 100%;
-    overflow-y: scroll;
-    background-color: tomato;
   }
+  .add-transactions {
+    right: 37px;
+    bottom: 60px;
+  }
+  .hover-text {
+    position: absolute;
+    top: -143px;
+    right: 20px;
+}
+ 
 }
 
 /* Tablets */
-@media (max-width: 768px) {
+
+@media screen and (min-width: 481px) and (max-width: 768px)  {
   .home-greating {
     font-size: 25px;
     padding-left: 20px;
@@ -163,18 +179,23 @@
     margin-bottom: 15px;
   }
 
-  .add-transactions {
-    right: 40px;
-    top: 160px;
-  }
 
   .net-transactins-value-amount {
     padding-left: 10px;
   }
+  .add-transactions {
+    right: 5px;
+    bottom: 20px;
+  }
+  .hover-text {
+    position: absolute;
+    top: -100px;
+    right: 10px;
+}
 }
 
 /* Large Screens */
-@media (min-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1200px) {
   .home-greating {
     font-size: 35px;
   }
@@ -186,4 +207,13 @@
   .net-transactins-value {
     max-width: 1000px;
   }
+  .add-transactions {
+    right: 20px;
+    bottom: 520px;
+  }
+  .hover-text {
+    position: absolute;
+    top: -520px;
+    right: 10px;
+}
 }
