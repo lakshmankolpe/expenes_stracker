@@ -87,6 +87,12 @@
 
 /* Mobile Devices */
 @media (max-width: 480px) {
+    .net-transactins-value {
+        margin: 20px auto;
+        padding: 10px;
+      
+        
+    }
     .home-greating {
         font-size: 20px;
         padding-left: 15px;
