@@ -1,77 +1,196 @@
 .add-transactins-title {
-    padding-top: 30px;
-    text-align: center;
-    font-size: 30px;
-
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .user-name {
-    color: blue;
-
-    text-align: center;
-    font-size: 30px;
-    margin: 0;
-    margin: 0;
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+  margin: 0;
+  margin: 0;
 }
 
 .add-transaction-container {
-    background-color: white;
-    width: 30%;
-    height: 75vh;
-    margin: 90px auto;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: 0px 0px 10px 1px grey;
+  background-color: white;
+  width: 30%;
+  height: 75vh;
+  margin: 90px auto;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0px 0px 10px 1px grey;
 }
 
 .Logo-icon {
-    height: 120px;
-    position: absolute;
-    top: 2px;
-    left: 1px;
+  height: 120px;
+  position: absolute;
+  top: 2px;
+  left: 1px;
 }
 
 .add-transaction-form {
-    height: 47vh;
-    display: block;
-    justify-content: center;
-    padding: 30px;
-
+  height: 47vh;
+  display: block;
+  justify-content: center;
+  padding: 30px;
 }
 
 .add-transaction-input {
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    border: 2px solid #33bbff;
-    border-radius: 3px;
-    font-size: 20px;
-    padding: 10px 1px;
+  display: block;
+  margin: 20px auto;
+  width: 100%;
+  border: 2px solid #33bbff;
+  border-radius: 3px;
+  font-size: 20px;
+  padding: 10px 1px;
 }
 
 .add-transaction-input:focus,
 .use:active {
-    outline: none;
+  outline: none;
 }
 
 .add-transaction-button {
-    display: block;
-    margin: 40px auto;
-    text-align: center;
-    border: none;
-    height: 45px;
-    width: 80%;
-    background-color: #4d4dff;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  margin: 40px auto;
+  text-align: center;
+  border: none;
+  height: 45px;
+  width: 80%;
+  background-color: #4d4dff;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.add-transaction-button:hover{
-    background-color:#00aaff ;
-    box-shadow: 0px 0px 2px 1px gray ;
-    transform: scale(1.05);
+.add-transaction-button:hover {
+  background-color: #00aaff;
+  box-shadow: 0px 0px 2px 1px gray;
+  transform: scale(1.05);
+}
+@media screen and (max-width: 500px) {
+  .add-transaction-container {
+    width: 90%;
+    height: 62vh;
+    margin: 120px auto;
+  }
+  .add-transactins-title {
+    padding-top: 30px;
+    font-size: 18px;
+  }
+  .Logo-icon {
+    height: 70px;
+    top: 14px;
+  }
+  .add-transaction-input {
+    font-size: 18px;
+    padding: 6px 0px;
+  }
+  .add-transaction-button {
+    margin: 30px auto;
+    height: 38px;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 599px) {
+  .add-transaction-container {
+    width: 70%;
+    height: 70vh;
+  }
+  .add-transactins-title {
+    padding-top: 30px;
+    font-size: 22px;
+  }
+  .Logo-icon {
+    height: 80px;
+    top: 12px;
+  }
+  .add-transaction-form {
+    height: 47vh;
+    padding: 23px;
+    margin: 10px auto;
+  }
+  .add-transaction-input {
+    font-size: 20px;
+    padding: 8px 0px;
+  }
+  .add-transaction-button {
+    margin: 31px auto;
+    height: 40px;
+    width: 80%;
+    font-size: 17px;
+    border-radius: 6px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+  .add-transaction-container {
+    width: 55%;
+  }
+  .add-transactins-title {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .Logo-icon {
+    height: 100px;
+    top: 8px;
+  }
+  .add-transaction-form {
+    height: 47vh;
+    padding: 25px;
+  }
+  .add-transaction-button {
+    margin: 33px auto;
+    height: 42px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 7px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .add-transaction-container {
+    width: 50%;
+  }
+  .add-transactins-title {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .Logo-icon {
+    height: 100px;
+    top: 8px;
+  }
+  .add-transaction-form {
+    height: 47vh;
+    padding: 25px;
+  }
+  .add-transaction-button {
+    margin: 34px auto;
+    height: 44px;
+    width: 80%;
+    font-size: 19px;
+    border-radius: 8px;
+  }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  .add-transaction-container {
+    width: 50%;
+  }
+  .add-transactins-title {
+    padding-top: 30px;
+    font-size: 25px;
+  }
+  .Logo-icon {
+    height: 100px;
+    top: 8px;
+  }
+  .add-transaction-form {
+    height: 47vh;
+    padding: 25px;
+  }
 }
