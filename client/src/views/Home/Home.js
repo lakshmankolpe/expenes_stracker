@@ -75,13 +75,12 @@ function Home() {
 
       <div className="net-transactins-value">
         <div className="net-transactins-value-item">
-          <span className="net-transactins-value-amount">+{netIncome}</span>
-          <span className="net-transactins-value-title">Net Income</span>
-        </div>
-
-        <div className="net-transactins-value-item">
-          <span className="net-transactins-value-amount">-{netExpense}</span>
-          <span className="net-transactins-value-title">Net Expense</span>
+          <span className="net-transactins-value-amount net-icome-text">
+            +{netIncome}
+          </span>
+          <span className="net-transactins-value-title net-icome-text">
+            Net Income
+          </span>
         </div>
 
         <div className="net-transactins-value-item">
@@ -89,6 +88,11 @@ function Home() {
             {netIncome - netExpense}
           </span>
           <span className="net-transactins-value-title">Net Balance</span>
+        </div>
+
+        <div className="net-transactins-value-item">
+          <span className="net-transactins-value-amount net-expense-text">-{netExpense}</span>
+          <span className="net-transactins-value-title net-expense-text">Net Expense</span>
         </div>
       </div>
 

@@ -1,7 +1,7 @@
 .transaction-card-main-container {
   background-color: white;
   margin: 20px 50px;
-  border-radius: 12px;
+  border-radius: 7px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   padding: 20px;
   position: relative;
@@ -47,7 +47,7 @@
   color: #fff;
   border: none;
   border-radius: 8px;
-  padding: 10px 15px;
+  padding: 6px 15px;
   cursor: pointer;
   font-size: 16px;
   position: absolute;
