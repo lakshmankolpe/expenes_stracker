@@ -4,30 +4,6 @@ A full-stack **Expense Tracker** web application built using the **MERN** stack.
 
 ---
 
-## 📷 Screenshots
-
-### 🖼️ Dashboard View
-![Dashboard](1(1).png)
-
-### 📊 Income & Expenses
-![Income & Expenses](2)(1).png)
-
-### 🗑️ Delete Transaction
-![Delete Transaction](3(1).png)
-
-### 📊 Balance View
-![Balance View](4(1).png)
-
----
-
-## 🚀 Live Demo
-
-[Expense Tracker Demo](https://expense-tracker-lakshmankolpe.vercel.app/)
-
----
-
-## 📝 Table of Contents
-
 ## 🚀 Features
 
 - ➕ Add income and expenses
