@@ -4,6 +4,15 @@ A full-stack **Expense Tracker** web application built using the **MERN** stack.
 
 ---
 
+## 📷 Screenshots
+
+### 🖼️ Dashboard View
+![Dashboard](1(1).png)
+
+### 📊 Income & Expenses
+![Income & Expenses](2(1).png)
+
+
 ## 🚀 Features
 
 - ➕ Add income and expenses
