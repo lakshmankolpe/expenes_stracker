@@ -2,7 +2,7 @@
 
 A full-stack **Expense Tracker** web application built using the **MERN** stack. This app allows users to add, view, and delete income and expense transactions with real-time balance updates and persistent storage in **MongoDB**.
 
-![Add]()
+![Add](https://github.com/lakshmankolpe/expenes_stracker/blob/99a5ba35d456d38f14cce1ee290b3e7ab289765b/login%20page.png)
 
 ---
 
